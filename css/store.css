@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.navHeader{
+    background: #f6f6f6;
+    width: 100vw;
+    height: 90vh;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.navbar li{
+    color: #535353;
+    padding: 0px 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar img{
+    width: 80px;
+}
+
+.navbar{
+    
+    padding: 38px 26px;
+
+}
+
+.slider {
+    display: flex
+}
+
+.slider  img{
+    width: 600px;
+    position: absolute;
+    top: -12%;
+    left: 10%;
+}
+
+.slider div{
+    width: 50%;
+    
+}
+
+.slider h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.slider h3{
+    color: silver;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.slider ul{
+    font-weight: 400;
+    color: silver;
+    line-height: 3;
+    font-size: 20px;
+}
+
+.slider button{
+    border: 0;
+    height: 70px;
+    border-radius: 32px;
+    padding: 0px 60px;
+    font-size: 20px;
+}
+
+.itemGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.itemGrid div {
+    width: 100%;
+    text-align: center;
+    height: 600px;
+}
+
+.itemGrid img{
+    width: 400px
+}
+
+.itemGrid .name{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.itemGrid .price{
+    font-weight: 100;
+    color: silver;
+    font-size: 21px;
+}
+
+.itemGrid div:hover{
+    background: #f6f6f6;
+}
